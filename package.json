@@ -1,0 +1,33 @@
+{
+    "name": "adwait-theme",
+    "displayName": "Adwait Theme",
+    "publisher": "rakshank verma",
+    "icon": "adwait.png",
+    "description": "A small pack of dark and light themes with monokai syntax highlighting with darkest background for dark mode lovers with colorful syntax.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Rakshank-Verma/vscode-Theme.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Adwait Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Adwait-Dark.json"
+            },
+
+            {
+                "label": "Adwait Light",
+                "uiTheme": "vs",
+                "path": "./themes/Adwait-Light.json"
+            }
+        ]
+    }
+}
