@@ -4,7 +4,7 @@
     "publisher": "RakshankVerma",
     "icon": "adwait.png",
     "description": "A small pack of dark and light themes with monokai syntax highlighting with darkest background for dark mode lovers with colorful syntax.",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.66.0"
     },
